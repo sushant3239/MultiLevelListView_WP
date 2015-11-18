@@ -1,0 +1,5 @@
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\bin\Debug\MultiLevelList.Core.dll
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\bin\Debug\MultiLevelList.Core.pdb
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\obj\Debug\MultiLevelList.Core.csprojResolveAssemblyReference.cache
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\obj\Debug\MultiLevelList.Core.dll
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\obj\Debug\MultiLevelList.Core.pdb

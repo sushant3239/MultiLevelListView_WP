@@ -124,29 +124,19 @@ namespace MultiLevelList.MultiLevelList_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "MultiLevelList.BooleanToVisibilityConverter";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "MultiLevelList.MainPage";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[5] = "System.Collections.Generic.List`1<MultiLevelList.TreeItem>";
-            _typeNameTable[6] = "MultiLevelList.TreeItem";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "Boolean";
-            _typeNameTable[9] = "Int32";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::MultiLevelList.BooleanToVisibilityConverter);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::MultiLevelList.MainPage);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[5] = typeof(global::System.Collections.Generic.List<global::MultiLevelList.TreeItem>);
-            _typeTable[6] = typeof(global::MultiLevelList.TreeItem);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::System.Boolean);
-            _typeTable[9] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -183,14 +173,6 @@ namespace MultiLevelList.MultiLevelList_XamlTypeInfo
 
         private object Activate_0_BooleanToVisibilityConverter() { return new global::MultiLevelList.BooleanToVisibilityConverter(); }
         private object Activate_2_MainPage() { return new global::MultiLevelList.MainPage(); }
-        private object Activate_5_List() { return new global::System.Collections.Generic.List<global::MultiLevelList.TreeItem>(); }
-        private object Activate_6_TreeItem() { return new global::MultiLevelList.TreeItem(); }
-        private void VectorAdd_5_List(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::MultiLevelList.TreeItem>)instance;
-            var newItem = (global::MultiLevelList.TreeItem)item;
-            collection.Add(newItem);
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -216,7 +198,6 @@ namespace MultiLevelList.MultiLevelList_XamlTypeInfo
             case 2:   //  MultiLevelList.MainPage
                 userType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_2_MainPage;
-                userType.AddMemberName("Items");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -228,130 +209,16 @@ namespace MultiLevelList.MultiLevelList_XamlTypeInfo
             case 4:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
-
-            case 5:   //  System.Collections.Generic.List`1<MultiLevelList.TreeItem>
-                userType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_5_List;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 6:   //  MultiLevelList.TreeItem
-                userType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_6_TreeItem;
-                userType.AddMemberName("Title");
-                userType.AddMemberName("Childrens");
-                userType.AddMemberName("IsExpanded");
-                userType.AddMemberName("Level");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  String
-                xamlType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  Boolean
-                xamlType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 9:   //  Int32
-                xamlType = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
             }
             return xamlType;
         }
 
 
-        private object get_0_MainPage_Items(object instance)
-        {
-            var that = (global::MultiLevelList.MainPage)instance;
-            return that.Items;
-        }
-        private void set_0_MainPage_Items(object instance, object Value)
-        {
-            var that = (global::MultiLevelList.MainPage)instance;
-            that.Items = (global::System.Collections.Generic.List<global::MultiLevelList.TreeItem>)Value;
-        }
-        private object get_1_TreeItem_Title(object instance)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            return that.Title;
-        }
-        private void set_1_TreeItem_Title(object instance, object Value)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            that.Title = (global::System.String)Value;
-        }
-        private object get_2_TreeItem_Childrens(object instance)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            return that.Childrens;
-        }
-        private void set_2_TreeItem_Childrens(object instance, object Value)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            that.Childrens = (global::System.Collections.Generic.List<global::MultiLevelList.TreeItem>)Value;
-        }
-        private object get_3_TreeItem_IsExpanded(object instance)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            return that.IsExpanded;
-        }
-        private void set_3_TreeItem_IsExpanded(object instance, object Value)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            that.IsExpanded = (global::System.Boolean)Value;
-        }
-        private object get_4_TreeItem_Level(object instance)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            return that.Level;
-        }
-        private void set_4_TreeItem_Level(object instance, object Value)
-        {
-            var that = (global::MultiLevelList.TreeItem)instance;
-            that.Level = (global::System.Int32)Value;
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember xamlMember = null;
-            global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType userType;
-
-            switch (longMemberName)
-            {
-            case "MultiLevelList.MainPage.Items":
-                userType = (global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MultiLevelList.MainPage");
-                xamlMember = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.List`1<MultiLevelList.TreeItem>");
-                xamlMember.Getter = get_0_MainPage_Items;
-                xamlMember.Setter = set_0_MainPage_Items;
-                break;
-            case "MultiLevelList.TreeItem.Title":
-                userType = (global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MultiLevelList.TreeItem");
-                xamlMember = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_1_TreeItem_Title;
-                xamlMember.Setter = set_1_TreeItem_Title;
-                break;
-            case "MultiLevelList.TreeItem.Childrens":
-                userType = (global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MultiLevelList.TreeItem");
-                xamlMember = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember(this, "Childrens", "System.Collections.Generic.List`1<MultiLevelList.TreeItem>");
-                xamlMember.Getter = get_2_TreeItem_Childrens;
-                xamlMember.Setter = set_2_TreeItem_Childrens;
-                break;
-            case "MultiLevelList.TreeItem.IsExpanded":
-                userType = (global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MultiLevelList.TreeItem");
-                xamlMember = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
-                xamlMember.Getter = get_3_TreeItem_IsExpanded;
-                xamlMember.Setter = set_3_TreeItem_IsExpanded;
-                break;
-            case "MultiLevelList.TreeItem.Level":
-                userType = (global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MultiLevelList.TreeItem");
-                xamlMember = new global::MultiLevelList.MultiLevelList_XamlTypeInfo.XamlMember(this, "Level", "Int32");
-                xamlMember.Getter = get_4_TreeItem_Level;
-                xamlMember.Setter = set_4_TreeItem_Level;
-                break;
-            }
+            // No Local Properties
             return xamlMember;
         }
     }
@@ -676,7 +543,5 @@ namespace MultiLevelList.MultiLevelList_XamlTypeInfo
         }
     }
 }
-
-
 
 

@@ -30,3 +30,7 @@ D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\qualifiers.txt
 D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\qualifiers.txt.intermediate
 D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\ProjectArchitectures.txt
+D:\Data_10\Windows\MultiLevelList\MultiLevelList\bin\Debug\MultiLevelList.Core.dll
+D:\Data_10\Windows\MultiLevelList\MultiLevelList\bin\Debug\MultiLevelList.Core.pdb
+D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\MultiLevelList.csprojResolveAssemblyReference.cache
+D:\Data_10\Windows\MultiLevelList\MultiLevelList\obj\Debug\MultiLevelList.csproj.GenerateResource.Cache

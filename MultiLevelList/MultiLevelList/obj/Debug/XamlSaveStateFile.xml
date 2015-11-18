@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="d:\data_10\windows\multilevellist\multilevellist\obj\debug\intermediatexaml\multilevellist.exe" HashGuid="ebc694d2-3ddb-cb8f-d563-3cdfdc22aeb5" />
+    <LocalAssembly PathName="d:\data_10\windows\multilevellist\multilevellist\obj\debug\intermediatexaml\multilevellist.exe" HashGuid="faec98f1-62d1-de40-c67b-2572ad0f5f2c" />
+    <ReferenceAssembly PathName="d:\data_10\windows\multilevellist\multilevellist.core\bin\debug\multilevellist.core.dll" HashGuid="0d348e5a-e2b6-5dda-2abe-d95d0028f43f" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

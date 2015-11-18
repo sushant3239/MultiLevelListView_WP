@@ -32,11 +32,6 @@
                 </StackPanel>
             </DataTemplate>
         </Grid.Resources>
-        <!--<ScrollViewer>
-            <ContentControl Content="{Binding Path=Items}"
-                            ContentTemplate="{StaticResource nodeNestedTemplate}"/>
-        </ScrollViewer>-->
-
         <ListView ItemsSource="{Binding Items}"
                   ItemTemplate="{StaticResource nodeNestedTemplate}"/>
     </Grid>

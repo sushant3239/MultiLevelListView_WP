@@ -1,1 +1,2 @@
+D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\MultiLevelList.Core.csproj;neutral
 D:\Data_10\Windows\MultiLevelList\MultiLevelList\MultiLevelList.csproj;neutral

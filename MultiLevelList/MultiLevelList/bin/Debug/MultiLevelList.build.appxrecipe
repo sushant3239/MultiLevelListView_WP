@@ -21,6 +21,9 @@
     <AppxPackagedFile Include="D:\Data_10\Windows\MultiLevelList\MultiLevelList\bin\Debug\MultiLevelList.exe">
       <PackagePath>MultiLevelList.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Data_10\Windows\MultiLevelList\MultiLevelList.Core\bin\Debug\MultiLevelList.Core.dll">
+      <PackagePath>MultiLevelList.Core.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Data_10\Windows\MultiLevelList\MultiLevelList\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
