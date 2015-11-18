@@ -3,25 +3,34 @@ using UIKit;
 using System.Collections.Generic;
 using MultiLevelList.Core.Model;
 using Foundation;
+using Cirrious.MvvmCross.Binding.Touch.Views;
 
 namespace MultiLevelList.iOS
 {
-	public abstract class MultiLevelListSourceBase : UITableViewSource
+	public abstract class MultiLevelListSourceBase : MvxTableViewSource
 	{
 		private List<TreeItem> _items;
 
-		public MultiLevelListSourceBase (List<TreeItem> items)
+		public MultiLevelListSourceBase (UITableView tableView) : base (tableView)
 		{
-			_items = items;
+			//_items = items;
 		}
 
-		public override UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath)
+		#region implemented abstract members of MvxBaseTableViewSource
+
+		protected override UITableViewCell GetOrCreateCellFor (UITableView tableView, NSIndexPath indexPath, object item)
 		{
+			if (_items == null) {
+				_items = ItemsSource as List<TreeItem>;
+			}
 			var cell = tableView.DequeueReusableCell (MyTableViewCell.Key, indexPath) as MyTableViewCell;
 			var currentItem = _items [indexPath.Row];
 			cell.DataContext = currentItem;
 			return cell;
 		}
+
+		#endregion
+
 
 		public override nint RowsInSection (UITableView tableview, nint section)
 		{
@@ -31,7 +40,7 @@ namespace MultiLevelList.iOS
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
 			var selectedCell = tableView.CellAt (indexPath) as MyTableViewCell;
-			var currentTreeItem = selectedCell.Model;
+			var currentTreeItem = selectedCell.DataContext as TreeItem;
 			var selectedItemIndex = _items.IndexOf (currentTreeItem);
 
 			if (currentTreeItem.IsExpanded) {
@@ -72,7 +81,7 @@ namespace MultiLevelList.iOS
 		}
 
 		private void RecursiveDelete (List<TreeItem> itemsToRemove, 
-			List<NSIndexPath> itemsToRemovePath, ref int totalDeleteCount)
+		                              List<NSIndexPath> itemsToRemovePath, ref int totalDeleteCount)
 		{
 			foreach (var item in itemsToRemove) {
 				if (item.IsExpanded) {

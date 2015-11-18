@@ -20,11 +20,6 @@ namespace MultiLevelList.iOS
 		{
 		}
 
-		public TreeItem Model {
-			get;
-			set;
-		}
-
 		public override void LayoutSubviews ()
 		{
 			base.LayoutSubviews ();
