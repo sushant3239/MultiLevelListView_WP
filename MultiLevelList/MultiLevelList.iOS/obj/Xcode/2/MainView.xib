@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainView">
+            <connections>
+                <outlet property="MyTableView" destination="wb7-Rh-nwA" id="fVY-Ko-cm7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kCW-yf-GMq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-Rh-nwA">
+                    <rect key="frame" x="10" y="10" width="300" height="548"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wb7-Rh-nwA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="M80-Gh-sBi"/>
+                <constraint firstAttribute="trailing" secondItem="wb7-Rh-nwA" secondAttribute="trailing" constant="10" id="Wbv-5w-TZI"/>
+                <constraint firstItem="wb7-Rh-nwA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="jdS-OO-GLd"/>
+                <constraint firstAttribute="bottom" secondItem="wb7-Rh-nwA" secondAttribute="bottom" constant="10" id="yhS-H0-obR"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

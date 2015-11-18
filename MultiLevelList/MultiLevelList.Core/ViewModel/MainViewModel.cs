@@ -1,10 +1,11 @@
 ﻿
 using MultiLevelList.Core.Model;
 using System.Collections.Generic;
+using Cirrious.MvvmCross.ViewModels;
 
 namespace MultiLevelList.Core.ViewModel
 {
-    public class MainViewModel
+    public class MainViewModel : MvxViewModel
     {
         private List<TreeItem> _items;
 

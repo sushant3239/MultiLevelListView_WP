@@ -1,12 +1,15 @@
 ﻿using Foundation;
 using UIKit;
+using Cirrious.MvvmCross.Touch.Platform;
+using Cirrious.CrossCore;
+using Cirrious.MvvmCross.ViewModels;
 
 namespace MultiLevelList.iOS
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
 	[Register ("AppDelegate")]
-	public class AppDelegate : UIApplicationDelegate
+	public class AppDelegate : MvxApplicationDelegate
 	{
 		// class-level declarations
 
@@ -17,15 +20,12 @@ namespace MultiLevelList.iOS
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
-			// create a new window instance based on the screen size
 			Window = new UIWindow (UIScreen.MainScreen.Bounds);
-			Window.RootViewController = new MainViewController ();
-			// If you have defined a root view controller, set it here:
-			// Window.RootViewController = myViewController;
-
-			// make the window visible
+			var setup = new Setup (this, Window);
+			setup.Initialize ();
+			var startup = Mvx.Resolve<IMvxAppStart> ();
+			startup.Start();
 			Window.MakeKeyAndVisible ();
-
 			return true;
 		}
 

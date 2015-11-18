@@ -28,7 +28,7 @@ namespace MultiLevelList.iOS
 			MyTableView.RegisterNibForCellReuse (UINib.FromName (MyTableViewCell.Key,
 				NSBundle.MainBundle),MyTableViewCell.Key);
 			
-			MyTableView.Source = new MyTableViewSource (vm.Items);
+			MyTableView.Source = new MyTableViewSource (MyTableView);
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
 	}

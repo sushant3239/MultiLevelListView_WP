@@ -26,6 +26,20 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Localization.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/bin/Debug/MultiLevelList.Core.dll \
@@ -123,6 +137,20 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Localization.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Touch.dll \
+	-r \
+	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/packages/MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.dll \
 	-r \
 	/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/bin/Debug/MultiLevelList.Core.dll \
 	--target-framework \

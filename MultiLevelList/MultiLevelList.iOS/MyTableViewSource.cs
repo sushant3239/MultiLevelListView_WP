@@ -4,37 +4,45 @@ using System.Collections.Generic;
 using MultiLevelList.Core.Model;
 using System.Linq;
 using Foundation;
+using Cirrious.MvvmCross.Binding.Touch.Views;
 
 namespace MultiLevelList.iOS
 {
-	public class MyTableViewSource : UITableViewSource
+	public class MyTableViewSource : MvxTableViewSource
 	{
 		private List<TreeItem> _items;
 
-		public MyTableViewSource (List<TreeItem> items)
+		public MyTableViewSource (UITableView tableView) 
+			: base (tableView)
 		{
-			_items = items;
 		}
 
-		#region implemented abstract members of UITableViewSource
+		#region implemented abstract members of MvxBaseTableViewSource
 
-		public override UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath)
+		protected override UITableViewCell GetOrCreateCellFor (UITableView tableView, NSIndexPath indexPath, object item)
 		{
+			if (_items == null) {
+				_items = ItemsSource as List<TreeItem>;
+			}
 			var cell = tableView.DequeueReusableCell (MyTableViewCell.Key, indexPath) as MyTableViewCell;
 			var currentItem = _items [indexPath.Row];
-			cell.Model = currentItem;
+			cell.DataContext = currentItem;
 			return cell;
 		}
 
+		#endregion
+
+		#region implemented abstract members of UITableViewSource
+
 		public override nint RowsInSection (UITableView tableview, nint section)
 		{
-			return _items.Count;
+			return (ItemsSource as List<TreeItem>).Count;
 		}
 
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
 			var selectedCell = tableView.CellAt (indexPath) as MyTableViewCell;
-			var currentTreeItem = selectedCell.Model;
+			var currentTreeItem = selectedCell.DataContext as TreeItem;
 			var selectedItemIndex = _items.IndexOf (currentTreeItem);
 
 			if (currentTreeItem.IsExpanded) {

@@ -1,6 +1,8 @@
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/ibtool/MainView.nib
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/ibtool/MainViewController.nib
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/ibtool/MyTableViewCell.nib
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/optimized/
@@ -8,6 +10,12 @@
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/MultiLevelList.iOS.exe
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/MultiLevelList.iOS.exe
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/MultiLevelList.iOS.exe.mdb
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.CrossCore.Touch.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.MvvmCross.Binding.Touch.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.CrossCore.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.MvvmCross.Binding.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.MvvmCross.Localization.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.MvvmCross.Touch.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/Cirrious.MvvmCross.dll
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/MultiLevelList.Core.dll
 /Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/bin/iPhoneSimulator/Debug/MultiLevelList.Core.dll.mdb
-/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.iOS/obj/iPhoneSimulator/Debug/ibtool/MyTableViewCell.nib

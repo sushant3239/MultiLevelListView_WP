@@ -5,10 +5,13 @@ using Foundation;
 using UIKit;
 using System.Collections.Generic;
 using MultiLevelList.Core.Model;
+using Cirrious.MvvmCross.Binding.Touch.Views;
+using Cirrious.MvvmCross.Binding.BindingContext;
+
 
 namespace MultiLevelList.iOS
 {
-	public partial class MyTableViewCell : UITableViewCell
+	public partial class MyTableViewCell : MvxTableViewCell
 	{
 		public static readonly UINib Nib = UINib.FromName ("MyTableViewCell", NSBundle.MainBundle);
 		public static readonly NSString Key = new NSString ("MyTableViewCell");
@@ -17,8 +20,7 @@ namespace MultiLevelList.iOS
 		{
 		}
 
-		public TreeItem Model 
-		{
+		public TreeItem Model {
 			get;
 			set;
 		}
@@ -26,7 +28,9 @@ namespace MultiLevelList.iOS
 		public override void LayoutSubviews ()
 		{
 			base.LayoutSubviews ();
-			LabelTitle.Text = Model.Title;
+			var set = this.CreateBindingSet<MyTableViewCell,TreeItem> ();
+			set.Bind (LabelTitle).To (vm => vm.Title);
+			set.Apply ();
 		}
 	}
 }
