@@ -1,0 +1,7 @@
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/MultiLevelList.Android.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/Mono.Android.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/mscorlib.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/System.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/System.Xml.Linq.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/System.Xml.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Android/obj/Debug/assemblies/System.Core.dll

@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="MultiLevelList.iOS/MultiLevelList.iOS.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MultiLevelList.iOS/MyTableViewCell.cs">
+    <Files>
+      <File FileName="MultiLevelList.iOS/AppDelegate.cs" Line="22" Column="58" />
+      <File FileName="MultiLevelList.iOS/MainViewController.cs" Line="1" Column="1" />
+      <File FileName="MultiLevelList.iOS/MyTableViewCell.cs" Line="29" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

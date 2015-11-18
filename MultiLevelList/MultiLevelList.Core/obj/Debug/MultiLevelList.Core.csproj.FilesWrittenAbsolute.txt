@@ -1,0 +1,5 @@
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/bin/Debug/MultiLevelList.Core.dll.mdb
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/bin/Debug/MultiLevelList.Core.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/obj/Debug/MultiLevelList.Core.dll
+/Users/apple/Desktop/Xamarin/MultiLevelListView_WP/MultiLevelListView_WP/MultiLevelList/MultiLevelList.Core/obj/Debug/MultiLevelList.Core.dll.mdb
